@@ -1,5 +1,5 @@
 {
-	"ProductCatalog": [{
+	"ProductCatalog2": [{
 			"PutRequest": {
 				"Item": {
 					"Id": {
