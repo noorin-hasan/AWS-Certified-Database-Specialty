@@ -3,7 +3,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "201"
+						"N": "1"
 					},
 					"ProductCategory": {
 						"S": "Bicycle"
@@ -30,7 +30,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "403"
+						"N": "2"
 					},
 					"ProductCategory": {
 						"S": "Helmet"
@@ -54,7 +54,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "411"
+						"N": "3"
 					},
 					"ProductCategory": {
 						"S": "Book"
@@ -78,7 +78,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "563"
+						"N": "4"
 					},
 					"ProductCategory": {
 						"S": "Helmet"
@@ -102,7 +102,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "543"
+						"N": "5"
 					},
 					"ProductCategory": {
 						"S": "Helmet"
@@ -126,7 +126,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "493"
+						"N": "6"
 					},
 					"ProductCategory": {
 						"S": "Helmet"
@@ -150,7 +150,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "347"
+						"N": "7"
 					},
 					"ProductCategory": {
 						"S": "Helmet"
@@ -174,7 +174,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "467"
+						"N": "8"
 					},
 					"ProductCategory": {
 						"S": "Bicycle"
@@ -201,7 +201,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "566"
+						"N": "9"
 					},
 					"ProductCategory": {
 						"S": "Bicycle"
@@ -228,7 +228,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "202"
+						"N": "10"
 					},
 					"ProductCategory": {
 						"S": "Bicycle"
@@ -255,7 +255,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "203"
+						"N": "11"
 					},
 					"ProductCategory": {
 						"S": "Bicycle"
@@ -282,7 +282,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "204"
+						"N": "12"
 					},
 					"ProductCategory": {
 						"S": "Bicycle"
@@ -309,7 +309,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "205"
+						"N": "13"
 					},
 					"ProductCategory": {
 						"S": "Helmet"
@@ -333,7 +333,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "206"
+						"N": "14"
 					},
 					"ProductCategory": {
 						"S": "Helmet"
@@ -357,7 +357,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "207"
+						"N": "15"
 					},
 					"ProductCategory": {
 						"S": "Book"
@@ -381,7 +381,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "208"
+						"N": "16"
 					},
 					"ProductCategory": {
 						"S": "Book"
@@ -405,7 +405,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "209"
+						"N": "17"
 					},
 					"ProductCategory": {
 						"S": "Book"
@@ -429,7 +429,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "210"
+						"N": "18"
 					},
 					"ProductCategory": {
 						"S": "Book"
@@ -453,7 +453,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "211"
+						"N": "19"
 					},
 					"ProductCategory": {
 						"S": "Bicycle"
@@ -480,7 +480,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "212"
+						"N": "20"
 					},
 					"ProductCategory": {
 						"S": "Bicycle"
@@ -507,7 +507,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "213"
+						"N": "21"
 					},
 					"ProductCategory": {
 						"S": "Bicycle"
@@ -534,7 +534,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "214"
+						"N": "22"
 					},
 					"ProductCategory": {
 						"S": "Bicycle"
@@ -561,7 +561,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "215"
+						"N": "23"
 					},
 					"ProductCategory": {
 						"S": "Helmet"
@@ -585,7 +585,7 @@
 			"PutRequest": {
 				"Item": {
 					"Id": {
-						"N": "216"
+						"N": "24"
 					},
 					"ProductCategory": {
 						"S": "Helmet"
@@ -601,30 +601,6 @@
 					},
 					"Color": {
 						"S": "Black"
-					}
-				}
-			}
-		},
-		{
-			"PutRequest": {
-				"Item": {
-					"Id": {
-						"N": "217"
-					},
-					"ProductCategory": {
-						"S": "Helmet"
-					},
-					"Description": {
-						"S": "Womens Ski Helmet"
-					},
-					"Size": {
-						"S": "Small"
-					},
-					"Price": {
-						"N": "99"
-					},
-					"Color": {
-						"S": "Pink"
 					}
 				}
 			}
