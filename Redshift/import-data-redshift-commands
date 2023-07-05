@@ -11,7 +11,7 @@
 6) Export the endpoint to the environment variable
     export PGHOST=<endpoint-obtained-from-previous-step>
 7) Obtain the ARN of the IAM role 
-    aws iam list-roles
+    aws iam get-role --role-name <rolename>
 8) Retrieve the bucket name if needed
     aws s3 ls
 9) 
