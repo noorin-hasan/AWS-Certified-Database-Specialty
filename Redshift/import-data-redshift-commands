@@ -14,7 +14,16 @@
     aws iam get-role --role-name <rolename>
 8) Retrieve the bucket name if needed
     aws s3 ls
-9) 
+9) Use the echo command to pass in the endpoint 
     echo $PGHOST
 10) Connect to Redshift 
     psql -U <username> -p 5439 <databasename>
+11) Create a table in Redshift 
+    create table <tablename> (ID int, Name varchar, Department varchar, ExpenseCode int);
+12) Retrieve the ARN of the IAM role 
+    aws iam get-role --role-name <rolename>
+13) Copy the data to Redshift 
+    copy users_import from 's3://redshift-import-2023/redshift-data.csv' iam_role 'arn:aws:iam::006104586502:role/redshift-import' delimiter ',';
+
+
+
