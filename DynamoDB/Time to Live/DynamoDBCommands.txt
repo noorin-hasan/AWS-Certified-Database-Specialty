@@ -11,3 +11,6 @@ curl -O https://raw.githubusercontent.com/noorin-hasan/AWS-Certified-Database-Sp
 
 3) Populate the table you just created with the file you just downloaded: 
 aws dynamodb batch-write-item --request-items file://session-data-items.json
+
+4) Enable the TTL feature on the SessionData table that was created in step one.
+aws dynamodb update-time-to-live --table-name SessionData --time-to-live-specification Enabled=true,AttributeName=ExpirationTime
